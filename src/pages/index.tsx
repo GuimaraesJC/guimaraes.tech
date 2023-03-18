@@ -1,3 +1,14 @@
+import PostsList from '@/components/PostsList';
+
 export default function Home() {
-  return <h1>Hello World</h1>;
+  return <PostsList />;
 }
+
+// export async function getStaticProps() {
+//   const allPostsData = getSortedPostsData();
+//   return {
+//     props: {
+//       allPostsData,
+//     },
+//   };
+// }
